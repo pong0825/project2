@@ -1,8 +1,7 @@
 {
     "env": {
         "browser": true,
-        "es2020": true,
-        "jest": true
+        "es2020": true
     },
     "extends": [
         "plugin:react/recommended",
@@ -19,14 +18,5 @@
         "react"
     ],
     "rules": {
-        "no-param-reassign": 0,
-        "react/jsx-filename-extension": [0],
-        "import/extensions": "off",
-        "no-unused-vars": "off",
-        "import/no-unresolved": "off",
-        "react/prop-types": "off",
-        "react/destructuring-assignment": ["off", "never"],
-        "react/button-has-type": ["off"],
-        "no-console": "off"
     }
 }
