@@ -30,7 +30,9 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h1>⚛️🔥💬</h1>
+        <span role="img" aria-labelledby=" ">
+          <h1>⚛️🔥💬</h1>
+        </span>
         <SignOut />
       </header>
 
